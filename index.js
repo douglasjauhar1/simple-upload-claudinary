@@ -30,8 +30,8 @@ app.post('/upload', (req, res, next) => {
     const cloudinary = require('cloudinary').v2
     cloudinary.config({
       cloud_name: 'phsycode-id',
-      api_key: '341517558128988',
-      api_secret: 'oKkqofZ4Cqr1PFZFizbE1Pw5o8E'
+      api_key: '*********',
+      api_secret: '********'
     })
 
     const path = req.file.path
